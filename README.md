@@ -1,16 +1,8 @@
-# forum-hub
+# Forum-Hub
 
 <img alt="documentation in swagger view" src="readme-files/swagger-print.png">
 
-O Forum Hub é um desafio proposto pela alura na finalização da sua trilha de java + spring boot 3.
-
-Esse projeto é uma api restful para um fórum fictício, onde temos endpoints para o crud de tópicos e outras funcionalidades,
-tudo isso seguindo as regras de negócio estimadas no ínicio do projeto.
-
-## Índice
-
-- [Endpoints](#Endpoints)
-- [Tecnologias utilizadas](#Tecnologias-utilizadas)
+O Fórum Hub é um desafio realizado pela Alura no curso de formação Back-End onde criamos uma API REST. Tive a oportunidade de aplicar conceitos avançados de Java e Spring Boot, como criação de endpoints, implementação de camadas de segurança, entre outros.
 
 ## Endpoints
 
@@ -21,17 +13,11 @@ Atualmente temos diversos endpoints:
 - [POST] -> "/topicos", para criar um novo tópico;
 - [PUT] -> "/topicos/{id}", para alterar as informações de um tópico;
 - [DELETE] -> "/topicos/{id}", para deletar um tópico do banco de dados.
-
-
 - [POST] -> "/respostas", para escrever uma resposta a um topico.
 - [GET] -> "/respostas/usuarios/{id}", para ver todas as respostas de um determinado usuario.
 - [GET] -> "/respostas/topicos/{id}", para ver somente as respostas de um determinado topico.
-
-
 - [POST] -> "/cursos", para criar um novo curso, deve-se seguir as categorias do enum Categorias.
 - [GET] -> "/cursos/{id}", para ver os detalhes de um curso.
-
-
 - [GET] -> "/usuarios/{id}", para ver os detalhes de um usuario.
 
 ## Tecnologias utilizadas
