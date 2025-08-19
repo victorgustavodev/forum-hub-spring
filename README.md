@@ -2,6 +2,16 @@
 
 <img alt="documentation in swagger view" src="readme-files/swagger-print.png">
 
+## Badge
+
+Badge conquistado por ter desenvolvido este projeto com a Alura no programa ONE - "Oracle Next Education" em parceria com a Oracle:
+
+<div align="center">
+
+<img width="300" height="300" alt="Badge-Spring" src="https://github.com/user-attachments/assets/86e0ce24-0f54-4055-96a9-2b95f2e96d7e" />
+
+</div>
+
 O Fórum Hub é um desafio realizado pela Alura no curso de formação Back-End onde criamos uma API REST. Tive a oportunidade de aplicar conceitos avançados de Java e Spring Boot, como criação de endpoints, implementação de camadas de segurança, entre outros.
 
 ## Endpoints
